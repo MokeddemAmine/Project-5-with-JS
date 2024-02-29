@@ -1,0 +1,238 @@
+/* Start Grid System  */
+@media (min-width:576px){
+    .container{
+        max-width:540px;
+    }
+}
+@media (min-width:768px){
+    .container{
+        max-width:740px;
+    }
+}
+@media (min-width:992px){
+    .container{
+        max-width:960px;
+    }
+}
+@media (min-width:1200px){
+    .container{
+        max-width:80%;
+    }
+}
+/* End Grid System  */
+/* Landing page */
+@media (max-width:1200px){
+    .landing-page .introduction-text{
+        width:100%;
+    }
+}
+@media(max-width:767px){
+    .introduction-text h1{
+        font-size:25px;
+    }
+    .introduction-text p{
+        font-size:18px;
+    }
+}
+@media(max-width:575px){
+    .introduction-text p{
+        font-size:14px;
+    }
+}
+/* About us */
+@media(max-width:991px){
+    .about-us-content{
+        flex-direction:column;
+    }
+}
+@media (max-width:991px){
+    .about-us-info h2{
+        text-align:center;
+    }
+}
+@media (max-width:991px){
+    .about-us-info p{
+        text-align:center;
+        margin-bottom:20px;
+    }
+}
+@media (max-width:575px){
+    .about-us-info p{
+        font-size:16px;
+    }
+}
+/* Our Skills */
+@media (max-width:1199px){
+    .our-skills-content{
+        height:500px;
+    }
+}
+@media (max-width:1199px){
+    .skill-box{
+        flex-direction:column;
+        height:200px;
+    }
+}
+@media (max-width:1199px){
+    .skill-name{
+        margin-bottom:15px;
+    }
+}
+@media (max-width:1199px){
+    .skill-progress{
+        width:100%;
+    }
+}
+/* Our Gallery */
+@media (max-width:991px){
+    .popup-center-div{
+        width:60%;
+        height:40%;
+    }
+}
+@media (max-width:767px){
+    .popup-center-div{
+        width:70%;
+        height:30%;
+    }
+}
+@media (max-width:567px){
+    .popup-center-div{
+        width:80%;
+        height:25%;
+    }
+}
+/* Timeline */
+@media (max-width:991px){
+    .timeline-content .left,
+    .timeline-content .right{
+        width:100%;
+    }
+}
+@media (max-width:991px){
+    .timeline-content .content h3{
+        text-align:center;
+    }
+}
+@media (max-width:575px){
+    .timeline-content .content h3{
+        font-size:16px;
+    }
+}
+@media (max-width:575px){
+    .timeline-content .content p{
+        font-size:13px;
+    }
+}
+/* Features */
+@media(max-width:991px){
+    .features-content{
+        grid-template-columns: repeat(2,45%);
+    }
+}
+@media (max-width:767px){
+    .features-content{
+        grid-template-columns:1fr;
+    }
+}
+/* Testimonials */
+@media(max-width:1199px){
+    .testimonials-content .person{
+        width:45%;
+        margin-bottom:5%;
+    }
+}
+@media (max-width:767px){
+    .testimonials-content .person{
+        width:90%;
+    }
+}
+@media (max-width:567px){
+    .testimonials-content .person > p{
+        font-size:13px;
+    }
+}
+@media(min-width:992px){
+    .testimonials-content .person .person-info img{
+        float:left;
+    }
+}
+@media (max-width:767px){
+    .testimonials-content .person .person-info img{
+        float:left;
+    }
+}
+@media (max-width:567px){
+    .testimonials-content .person .person-info img{
+        width:70px;
+        height:70px;
+    }
+}
+@media(max-width:1199px){
+    .testimonials-content .person .person-info img{
+        display:block;
+        margin:auto;
+    }
+}
+@media(max-width:1199px){
+    .testimonials-content .person-info h4{
+        text-align:center;
+    }
+    .testimonials-content .person-info p{
+        text-align:center;
+    }
+}
+@media (max-width:567px){
+    .testimonials-content .person-info h4{
+        font-size:12px;
+    }
+    .testimonials-content .person-info p{
+        font-size:12px;
+    }
+}
+/* Contact Us */
+@media(min-width:992px){
+    .contact-us-content form .left{
+        float:left;
+        width:49%;
+    }
+    .contact-us-content form .right{
+        float:right;
+        width:49%;
+    }
+}
+@media (max-width:991px){
+    .contact-us-content form .left,
+    .contact-us-content form .right{
+        Width:100%;
+        margin-bottom:20px;
+    }
+}
+/* Contact Us */
+@media (max-width:1199px){
+    .landing-page .header-area .links{
+        display:none;
+        position:relative;
+        z-index:1001;
+    }
+    .landing-page .header-area .links.open{
+        display:block;
+        background:#fff;
+        width:80%;
+        position:absolute;
+        top:60px;
+        right:50px;
+        padding:10px;
+    }
+    .landing-page .header-area .links.open li{
+        display:block;
+        margin:10px;
+    }
+    .landing-page .header-area .links.open li a{
+        color:var(--main-color);
+        font-weight:bold;
+    }
+    .toggle-menu{
+        display:block;
+    }
+}
